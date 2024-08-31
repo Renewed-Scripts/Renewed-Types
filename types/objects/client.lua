@@ -41,6 +41,13 @@ function Renewed.addObject(payload) end
 function Renewed.stopPlacing() end
 
 ---**`client`**
+---@param id string
+---@param newObject string | number
+---@param newCoords vector3?
+---@param newHeading number?
+function Renewed.changeObject(id, newObject, newCoords, newHeading) end
+
+---**`client`**
 ---@param object string | number
 ---@param dist number?
 ---@param snapGround boolean?
