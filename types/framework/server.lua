@@ -59,6 +59,11 @@ function Renewed.getMoney(source, moneyType) end
 function Renewed.removeMoney(source, amount, moneyType, reason) end
 
 ---**`server`**
+---@param charId string
+---@return number?
+function Renewed.getPlayerFromCharId(charId) end
+
+---**`server`**
 ---@param source number
 ---@param amount number
 ---@param moneyType 'cash' | 'bank'
