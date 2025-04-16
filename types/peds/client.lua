@@ -16,6 +16,7 @@
 ---@field target OxTargetOption | OxTargetOption[]?
 ---@field interact table?
 ---@field instance number | string?
+---@field onSpawn fun(data: self)?
 ---@field resource string?
 
 
